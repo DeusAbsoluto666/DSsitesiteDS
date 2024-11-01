@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+  
+--azul-escuro: #03045eff;
+--azul-meioescuro: #023e8aff;
+--azul: #0077b6ff;
+--azul-claro: #0096c7ff;
+--ciano-escuro: #00b4d8ff;
+--ciano: #48cae4ff;
+--ciano-claro: #90e0efff;
+--ciano-bem-claro: #ade8f4ff;
+--branco: rgb(255, 255, 255);
+--fonte-titulo: 'Merriweather', serif; 
+--fonte-texto: 'Playfair Display', serif;
+
+}
+
+.body{
+    background-color: var(--ciano-bem-claro);
+}
+
+.principal_titulo {
+    font-family: var(--fonte-texto);
+}
