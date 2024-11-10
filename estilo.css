@@ -16,50 +16,6 @@
     --fotn-texto: "Space Grotesk", serif;
 }
 
-.cabeca{
-    background-color: var(--lapis-lazuli);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-
-.navbar{
-    padding: 30px;
-    color: var()
-}
-
-.botao{
-    text-decoration: none;
-    color: var(--branco);
-    justify-content: space-between;
-    font-size: 2em;
-    margin-left: 100px;
-    align-items: left;
-}
-
-.botao :hover{
-    color: var(--verde-azul);
-    background-color: var(--branco);
-    transition: 2s;
-
-}
-
-.img {
-    margin-right: 1100px;
-    display: flex;
-}
-
-.amanha{
-    align-items: center;
-    text-align: center;
-    background-color: var(--verde-azul);
-    color: var(--branco);
-    font-family:var(--fotn-texto);
-
-}
-
-
 body{
     align-items: center;
     text-align: center;
@@ -68,6 +24,94 @@ body{
     font-family: var(--font-titulo); 
     font-size: 16px;   
 }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+
+header {
+    background-color: var(--lapis-lazuli);
+    display: flex;
+    justify-content: space-between; 
+    box-shadow: 0.1em 0.1em 0.5em var(--lapis-lazuli);
+    align-items: center;            
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+        .navbar {
+            display: flex;               
+            justify-content: flex-start; 
+            gap: 1em;                   
+        }
+
+                .botao {
+                    text-decoration: none;
+                    color: var(--branco);
+                    background-color: var(--verde-azul);
+                    font-size: 2em;
+                    padding: 0.4em 0.6em;  
+                    border-radius: 1em 1em 1em 1em;
+                    margin-right: 1em;
+                }
+
+                        .botao:hover {
+                            color: var(--verde-azul);
+                            background-color: var(--branco);
+                            transition: 0.5s;
+                            text-shadow: 0.06em 0.01em var(--verde-azul);
+                            box-shadow: 0.08em 0.08em 0.08em 0.01em var(--verde-azul);
+                            border-radius: 10px 10px 10px 10px;
+                        }
+
+        .img {
+            border-radius: 5em 5em 5em 5em;
+            background-color: var(--branco);
+        }
+
+
+main {
+    margin-top: 20vh;
+    padding: 20px;
+}
+
+        .amanha{
+            align-items: center;
+            text-align: center;
+            background-color: var(--branco);
+            color: var(--lapis-lazuli);
+            font-family:var(--fotn-texto);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-color:var(--branco);
+            border-width: 5px;
+            border-radius: 5px;
+            border-style: solid;
+        }
+
+        .ontem{
+            margin-top: 1em;
+            background-color: var(--lapis-lazuli);
+            border-width: 2px;
+            border-color: var(--lapis-lazuli);
+            box-shadow: 0px 4px 8px var(--lapis-lazuli);
+            border-style: solid;
+            border-radius: 5px;
+            font-size: 2em;
+        }
+
+
 
 .pesinho{
     background-color: var(--lapis-lazuli);
