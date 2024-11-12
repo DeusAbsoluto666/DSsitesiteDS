@@ -111,29 +111,33 @@ main {
             font-size: 2em;
         }
 
-
+.container {
+    display: flex;  
+    justify-content: space-around;       
+    gap: 1px;    
+}
 
 .img2{
     width: 40%;
-    height: 10%;
+    height: auto;
     margin-top: 5vh;
     margin-right: 50%;
 }
 
 .img3{
-    width: 40%;
-    height: 10%;
+    width: 60%;
+    height: auto;
+    margin-top: 5vh;
+    margin-right: 150%;
+}
+
+.img4{
+    width: 100%;
+    height: auto;
     margin-top: 5vh;
     margin-right: 50%;
 }
 
-.img4{
-    width: 40%;
-    height: 10%;
-    margin-top: 5vh;
-    margin-right: 50%;
-    padding-bottom: 10%;
-}
 
 .pesinho{
     background-color: var(--lapis-lazuli);
