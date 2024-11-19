@@ -69,7 +69,7 @@ header {
 
 
 main {
-    margin-top: 16vh;
+    margin-top: 25vh;
     padding: 20px;
     height: 100vh;
 }
@@ -109,6 +109,7 @@ main {
     justify-content: space-between;
     gap: 1em;
     margin-top: 4em;
+    padding-bottom: 5em;
 }
 
 .container_div {
@@ -161,7 +162,7 @@ main {
     color: var(--branco);
     font-size: 10px;
     padding: 1em;
-
+    margin-top: 10em;
     position: fixed;
     bottom: 0;
     width: 100%;
