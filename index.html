@@ -7,19 +7,22 @@
     <title>Tancredo Home</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header class="cabeca">
-        <a href=""><img src="logotancredo.png" class="img"></a>
+    <header class="cabeca" data-aos="fade-down">
+        <a href="#"><img src="logotancredo.png" alt="Logo Tancredo" class="img"></a>
         <nav class="navbar">
+            <a href="index.html" class="botao">Cursos</a>
             <a href="index.html" class="botao">Home</a>
-            <a href="sobre.html" class="botao">Sobre</a>
         </nav>
     </header>
 
     <main class="principal">
-        <section class="amanha">
+        <section class="amanha" data-aos="fade-up">
             <h1>Tancredo de Almeida Neves</h1>
             <p>
                 "O Colégio Estadual Tancredo de Almeida Neves é uma instituição de ensino comprometida
@@ -31,39 +34,40 @@
                 desafios do futuro com competência e confiança."
             </p>
         </section>
-        <section class="ontem">
-            <p>
-                Conheça Nossos Cursos!
-            </p>
+
+        <section class="ontem" data-aos="zoom-in">
+            <p>Conheça Nossos Cursos!</p>
         </section>
+
         <section class="container">
-            <div class="container_div">
-                <img src="codigo1.jpg" alt="Códigos" class="img2">
-                <a href="#"> Desenvolvimento de Sistema </a>
+            <div class="container_div ds" data-aos="fade-right">
+                <img src="Design sem nome.png" alt="Códigos" class="img2">
+                <p>O curso de Desenvolvimento de Sistemas capacita profissionais para criar, gerenciar e manter softwares e aplicações,
+                    integrando programação, lógica e tecnologia.</p> <a href="ds.html">Saiba Mais</a>
             </div>
-            <div class="container_div2">
-                <img src="am.jpg" alt="AdM" class="img2">
-                <a href="#">
-                    <p> Administração </p>
-                </a>
+            <div class="container_div adm" data-aos="fade-left">
+                <p>O curso de Administração é voltado para a formação de profissionais capazes de
+                    planejar, organizar, dirigir e controlar os recursos de empresas e organizações.</p>
+                    <a href="adm.html">Saiba Mais</a>
+                <img src="adm.png" alt="Administração" class="img2">
             </div>
-            <div class="container_div3">
-                <img src="ffd.jpg" alt="Formação Docentes" class="img2">
-                <a href="teste.html">
-                    <p> Formação Docente </p>
-                </a>
+            <div class="container_div docentes" data-aos="fade-up">
+                <img src="fd.png" alt="Formação Docentes" class="img2">
+                <p>O curso de Formação de Docentes prepara educadores para ensinar com competência, criatividade e empatia.</p> <a href="fd.html">Saiba Mais</a>
             </div>
-        </section>
+        </section>        
     </main>
 
-    <footer class="pesinho">
-        <h1>
-            © Todos os direitos reservados.
-        </h1>
-        <p>
-            Alunos Envolvidos: Arthur, Andre R., Gutavo, Pedro e Andre C.
-        </p>
+    <footer class="pesinho" data-aos="fade-up">
+        <p>&copy; Todos os direitos reservados.</p>
+        <p>2º Desenvolvimento de Sistemas - 2024</p>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
