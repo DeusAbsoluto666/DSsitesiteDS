@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ds.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Desenvolvimento de Sistemas</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="img/logodoDs.jpeg" alt="Logo do curso de Desenvolvimento de Sistemas" class="logo">
+            <div class="links">
+                <button id="toggleMenu" class="botao">Cursos</button>
+                <a href="index.html" class="botao">Home</a>
+            </div>
+        </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="adm.html" class="botao-menu">Administração</a></li>
+                    <li><a href="ds.html" class="botao-menu">Desenvolvimento de Sistemas</a></li>
+                    <li><a href="fd.html" class="botao-menu">Formação Docente</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="inicio">
+            <div>
+                <div class="container" data-aos="fade-down" data-aos-duration="1000">
+                    <h1 class="titulo-principal">Desenvolvimento de Sistemas</h1>
+                    <p class="descricao">. Um curso profissionalizante que busca ensinar sobre o desenvolvimento de softwares, onde os
+                        alunos podem seguir carreira e futuramente realizar um curso superior nessa área!
+                        . Curso que prepara o estudante para atuar em diversas áreas da gestão, com
+                        competências como liderança, capacidade de tomar decisões e gerir pessoas e recursos.</p>
+
+                </div>
+            </div>
+            <a href="#video-apresentacao" class="link-inicio" data-aos="fade-up" data-aos-duration="1000">Saiba
+                mais!</a>
+        </section>
+        <section id="video-apresentacao" class="container" data-aos="fade-right" data-aos-duration="1000">
+            <video controls width="27%" height="30%">
+                <source src="Img/VID-20241118-WA0005.mp4" type="video/mp4">
+                Seu navegador não suporta a exibição de vídeos.
+            </video>
+        </section>
+        <section class="integrantes">
+            <h1 class="titulo-secundario" data-aos="fade-up" data-aos-duration="1000">Imagens de alguns alunos do curso de Desenvolvimento de Sistemas:</h1>
+            <div class="container-slide">
+                <div class="paginas-slide">
+                    <img src="img/IMG-20241118-WA0006.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0007.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0008.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+                    <img src="img/IMG-20241118-WA0009.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+
+                    <!--Repetir as imagens-->
+
+                    <img src="img/IMG-20241118-WA0006.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0007.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0008.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+                    <img src="img/IMG-20241118-WA0009.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+
+                    <img src="img/IMG-20241118-WA0006.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0007.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas">
+                    <img src="img/IMG-20241118-WA0008.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+                    <img src="img/IMG-20241118-WA0009.jpg" alt="Imagens das turmas de Desenvolvimento de Sistemas" class="img-rotativo">
+                </div>
+            </div>
+        </section>
+        <section class="materias">
+            <h1 class="titulo-secundario" data-aos="fade-left" data-aos-duration="1000">Matérias</h1>
+            <div class="itens">
+                <div data-aos="fade-up-right" data-aos-duration="1000">
+                    <h1 class="titulo-terciario">1º ano</h1>
+                    <p>Lógica computacional;</p>
+                    <p>Ciência da Computação.</p>
+                    <p>Análise e Projeto de Sistemas;</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="titulo-terciario">2º ano</h1>
+                    <p>Análise projetos de sistemas;</p>
+                    <p>Programação front-end;</p>
+                    <p>Ciência da computação;</p>
+                    <p>Programação mobile.</p>
+                    <p> Banco de dados;</p>
+                </div>
+                <div data-aos="fade-up-left" data-aos-duration="1000">
+                    <h1 class="titulo-terciario">3º ano</h1>
+                    <p>Programação de Sistemas;</p>
+                    <p>Infraestrutura de Redes;</p>
+                    <p>Programação Back-end;</p>
+                    <p>Computação Gráfica;</p>
+                    <p>Segurança de Redes.</p>
+                    <p>Ciência de dados;</p>
+                    <p>Jogos Digitais;</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; Todos os direitos reservados.</p>
+            <p>2º Desenvolvimento de Sistemas - 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init()
+    </script>
+
+    <script src="botao.js"></script>
+</body>
+
+</html>
